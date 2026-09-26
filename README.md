@@ -11,6 +11,20 @@ El objetivo de este laboratorio es demostrar capacidades técnicas reales en la 
 
 ---
 
+## 📌 Índice de Contenidos
+
+1. [📂 Estructura del Repositorio](#-estructura-del-repositorio)
+2. [🚀 Proyectos y Funcionalidades Destacadas](#-proyectos-y-funcionalidades-destacadas)
+   - [Windows & Active Directory (PowerShell)](#-1-administración-windows--active-directory-powershell)
+   - [Linux & Mantenimiento (Bash)](#-2-administración-linux--mantenimiento-bash)
+   - [Despliegue de Infraestructura (Docker)](#-3-despliegue-de-infraestructura-docker)
+3. [🖼️ Evidencias de Ejecución y Pruebas](#-evidencias-de-ejecución-y-pruebas-de-laboratorio)
+   - [Módulo Linux & Bash Shell](#-módulo-linux--bash-shell)
+   - [Módulo Windows & PowerShell](#-módulo-windows--powershell-active-directory)
+4. [💻 Stack Tecnológico](#-stack-tecnológico)
+
+---
+
 ## 📂 Estructura del Repositorio
 
 - **`bash/`**: Automation scripts for Linux systems (Monitoring, Backups)
