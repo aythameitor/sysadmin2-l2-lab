@@ -21,6 +21,7 @@ El objetivo de este laboratorio es demostrar capacidades técnicas reales en la 
 3. [🖼️ Evidencias de Ejecución y Pruebas](#-evidencias-de-ejecución-y-pruebas-de-laboratorio)
    - [Módulo Linux & Bash Shell](#-módulo-linux--bash-shell)
    - [Módulo Windows & PowerShell](#-módulo-windows--powershell-active-directory)
+   - [Módulo Docker & Contenedores](#-módulo-docker--contenedores)
 4. [💻 Stack Tecnológico](#-stack-tecnológico)
 
 ---
@@ -38,8 +39,8 @@ El objetivo de este laboratorio es demostrar capacidades técnicas reales en la 
 
 ### 🔹 1. Administración Windows & Active Directory (`/powershell`)
 Automatización de tareas críticas en entornos Microsoft Active Directory usando PowerShell:
-* **Aprovisionamiento masivo:** Script (`create-ADUsersFromCSV.ps1`) para la creación automatizada de cuentas de usuario desde fuentes de datos `.csv`.
-* **Auditoría de Seguridad:** Script (`audit-InactiveADUsers.ps1`) para la detección y reporte de identidades inactivas.
+* **Aprovisionamiento masivo:** Script (`create-ADUsersFromCSV.ps1`) para la creación automatizada de cuentas de usuario desde fuentes de datos `.csv`[cite: 8].
+* **Auditoría de Seguridad:** Script (`audit-InactiveADUsers.ps1`) para la detección y reporte de identidades inactivas[cite: 8].
 
 👉 [Ver código y documentación de PowerShell](./powershell/)
 
@@ -47,17 +48,18 @@ Automatización de tareas críticas en entornos Microsoft Active Directory usand
 
 ### 🔹 2. Administración Linux & Mantenimiento (`/bash`)
 Herramientas en Bash Shell para la gestión operativa de servidores Linux:
-* **Monitorización de Recursos:** Script (`monitor_de_sistema.sh`) para control en tiempo real de uso de CPU, RAM, disco y red con umbrales de alerta.
-* **Gestión de Respaldos:** Script (`backup_y_rotacion.sh`) para automatización de backups comprimidos y políticas de rotación de almacenamiento.
+* **Monitorización de Recursos:** Script (`monitor_de_sistema.sh`) para control en tiempo real de uso de CPU, RAM, disco y red con umbrales de alerta[cite: 7].
+* **Gestión de Respaldos:** Script (`backup_y_rotacion.sh`) para automatización de backups comprimidos y políticas de rotación de almacenamiento[cite: 7].
 
 👉 [Ver código y documentación de Bash](./bash/)
 
 ---
 
 ### 🔹 3. Despliegue de Infraestructura (`/docker`)
-* **Docker Compose:** Orquestación básica de servicios de red, servidores web (`Nginx`) y herramientas de gestión (`Portainer`).
+Orquestación de servicios en contenedores para prueba de servidores e infraestructura:
+* **Orquestación Multi-Servicio:** Despliegue de servidor web Nginx y gestor Portainer integrados en red dedicada y volúmenes persistentes.
 
-👉 [Ver configuración de Docker](./docker/)
+👉 [Ver configuración y documentación de Docker](./docker/)
 
 ---
 
@@ -82,6 +84,16 @@ Todas las herramientas han sido probadas y validadas en entornos de laboratorio 
 
 #### 2. Auditoría y Reporte de Identidades Inactivas (`audit-InactiveADUsers.ps1`)
 ![Revisión de Usuarios AD](./docs/capturas_powershell/revisionUsuarios.png)
+
+---
+
+### 🐳 Módulo Docker & Contenedores
+
+#### 1. Orquestación y Levantamiento de Servicios desde Consola
+![Consola Docker](./docs/capturas_docker/Docker_funcionando_consola.png)
+
+#### 2. Comprobación del Servidor Nginx Desplegado
+![Nginx Funcionando](./docs/capturas_docker/Docker_demostracion_nginx.png)
 
 ---
 
