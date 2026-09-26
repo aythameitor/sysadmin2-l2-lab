@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  webserver:
+    image: nginx:alpine
+    container_name: l2_lab_nginx
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - nginx_data:/usr/share/nginx/html
+    networks:
+      - lab_network
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: sysadmin2-l2-lab
+    restart: always
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    networks:
+      - lab_network
+
+networks:
+  lab_network:
+    driver: bridge
+
+volumes:
+  nginx_data:
+  portainer_data:
