@@ -26,7 +26,7 @@ Script para automatizar la incorporación (*onboarding*) de nuevos empleados en 
   * Asigna contraseñas iniciales seguras y marca la opción de cambio obligatorio en el primer inicio de sesión.
 
 #### 🖼️ Evidencia de Ejecución:
-![Creación Masiva de Usuarios AD](../docs/capturas%20powershell/creacionUsuarios.png)
+![Creación Masiva de Usuarios AD](../docs/capturas_powershell/creacionUsuarios.png)
 
 ---
 
@@ -39,7 +39,7 @@ Herramienta de hardening y cumplimiento de seguridad de identidades en Active Di
   * Exporta los resultados para su revisión técnica o deshabilitación programada.
 
 #### 🖼️ Evidencia de Ejecución:
-![Auditoría de Cuentas Inactivas AD](../docs/capturas%20powershell/revisionUsuarios.png)
+![Auditoría de Cuentas Inactivas AD](../docs/capturas_powershell/revisionUsuarios.png)
 
 ---
 
