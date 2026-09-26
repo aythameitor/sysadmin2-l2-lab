@@ -79,4 +79,4 @@ Todas las herramientas han sido probadas y validadas en entornos de laboratorio 
 * **Herramientas de Gestión:** Active Directory, interfaces CLI, utilidades POSIX.
 
 ---
-*Desarrollado y mantenido por [Aythami Miguel Cabrera Mayor](https://github.com/)*
+*Desarrollado y mantenido por [Aythami Miguel Cabrera Mayor](https://github.com/aythameitor)*
