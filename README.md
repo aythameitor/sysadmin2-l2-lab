@@ -54,20 +54,20 @@ Todas las herramientas han sido probadas y validadas en entornos de laboratorio 
 ### 🐧 Módulo Linux & Bash Shell
 
 #### 1. Monitorización de Sistema (`monitor_de_sistema.sh`)
-![Monitor de Sistema](./docs/capturas%20bash/prueba%20monitor%20de%20sistema.png)
+![Monitor de Sistema](./docs/capturas_bash/prueba%20monitor%20de%20sistema.png)
 
 #### 2. Gestión y Rotación de Backups (`backup_y_rotacion.sh`)
-![Backup y Rotación](./docs/capturas%20bash/Prueba%20backups%20funcionando.png)
+![Backup y Rotación](./docs/capturas_bash/Prueba%20backups%20funcionando.png)
 
 ---
 
 ### 🪟 Módulo Windows & PowerShell (Active Directory)
 
 #### 1. Aprovisionamiento Masivo de Usuarios desde CSV (`create-ADUsersFromCSV.ps1`)
-![Creación de Usuarios AD](./docs/capturas%20powershell/creacionUsuarios.png)
+![Creación de Usuarios AD](./docs/capturas_powershell/creacionUsuarios.png)
 
 #### 2. Auditoría y Reporte de Identidades Inactivas (`audit-InactiveADUsers.ps1`)
-![Revisión de Usuarios AD](./docs/capturas%20powershell/revisionUsuarios.png)
+![Revisión de Usuarios AD](./docs/capturas_powershell/revisionUsuarios.png)
 
 ---
 
