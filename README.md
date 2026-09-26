@@ -24,8 +24,8 @@ El objetivo de este laboratorio es demostrar capacidades técnicas reales en la 
 
 ### 🔹 1. Administración Windows & Active Directory (`/powershell`)
 Automatización de tareas críticas en entornos Microsoft Active Directory usando PowerShell:
-* **Aprovisionamiento masivo:** Script (`create-ADUsersFromCSV.ps1`) para la creación automatizada de cuentas de usuario desde fuentes de datos `.csv`[cite: 8].
-* **Auditoría de Seguridad:** Script (`audit-InactiveADUsers.ps1`) para la detección y reporte de identidades inactivas[cite: 8].
+* **Aprovisionamiento masivo:** Script (`create-ADUsersFromCSV.ps1`) para la creación automatizada de cuentas de usuario desde fuentes de datos `.csv`.
+* **Auditoría de Seguridad:** Script (`audit-InactiveADUsers.ps1`) para la detección y reporte de identidades inactivas.
 
 👉 [Ver código y documentación de PowerShell](./powershell/)
 
@@ -33,8 +33,8 @@ Automatización de tareas críticas en entornos Microsoft Active Directory usand
 
 ### 🔹 2. Administración Linux & Mantenimiento (`/bash`)
 Herramientas en Bash Shell para la gestión operativa de servidores Linux:
-* **Monitorización de Recursos:** Script (`monitor_de_sistema.sh`) para control en tiempo real de uso de CPU, RAM, disco y red con umbrales de alerta[cite: 7].
-* **Gestión de Respaldos:** Script (`backup_y_rotacion.sh`) para automatización de backups comprimidos y políticas de rotación de almacenamiento[cite: 7].
+* **Monitorización de Recursos:** Script (`monitor_de_sistema.sh`) para control en tiempo real de uso de CPU, RAM, disco y red con umbrales de alerta.
+* **Gestión de Respaldos:** Script (`backup_y_rotacion.sh`) para automatización de backups comprimidos y políticas de rotación de almacenamiento.
 
 👉 [Ver código y documentación de Bash](./bash/)
 
@@ -49,14 +49,25 @@ Herramientas en Bash Shell para la gestión operativa de servidores Linux:
 
 ## 🖼️ Evidencias de Ejecución y Pruebas de Laboratorio
 
-Todas las herramientas han sido probadas en entornos de laboratorio controlados. Puedes consultar las capturas directas de ejecución en la carpeta de documentación:
+Todas las herramientas han sido probadas y validadas en entornos de laboratorio controlados.
 
-| Módulo | Descripción de la Prueba | Captura |
-| :--- | :--- | :---: |
-| **Linux Bash** | Verificación del Monitor de Sistema | [Ver Captura](./docs/capturas_bash/prueba%20monitor%20de%20sistema.png) |
-| **Linux Bash** | Ejecución de Backup y Rotación | [Ver Captura](./docs/capturas_bash/Prueba%20backups%20funcionando.png) |
-| **PowerShell** | Creación masiva de usuarios AD desde CSV | [Ver Captura](./docs/capturas_powershell/creacionUsuarios.png) |
-| **PowerShell** | Auditoría y revisión de usuarios inactivos | [Ver Captura](./docs/capturas_powershell/revisionUsuarios.png) |
+### 🐧 Módulo Linux & Bash Shell
+
+#### 1. Monitorización de Sistema (`monitor_de_sistema.sh`)
+![Monitor de Sistema](./docs/capturas%20bash/prueba%20monitor%20de%20sistema.png)
+
+#### 2. Gestión y Rotación de Backups (`backup_y_rotacion.sh`)
+![Backup y Rotación](./docs/capturas%20bash/Prueba%20backups%20funcionando.png)
+
+---
+
+### 🪟 Módulo Windows & PowerShell (Active Directory)
+
+#### 1. Aprovisionamiento Masivo de Usuarios desde CSV (`create-ADUsersFromCSV.ps1`)
+![Creación de Usuarios AD](./docs/capturas%20powershell/creacionUsuarios.png)
+
+#### 2. Auditoría y Reporte de Identidades Inactivas (`audit-InactiveADUsers.ps1`)
+![Revisión de Usuarios AD](./docs/capturas%20powershell/revisionUsuarios.png)
 
 ---
 
